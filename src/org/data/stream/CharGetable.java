@@ -3,6 +3,6 @@ package org.data.stream;
 
 
 
-public interface ByteSource {
+public interface CharGetable {
     
 }
