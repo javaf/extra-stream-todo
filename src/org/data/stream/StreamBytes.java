@@ -6,7 +6,7 @@ import java.io.*;
 
 
 
-public class StreamBytes extends BufferedInputStream implements ByteGetable {
+public class StreamBytes extends BufferedInputStream {
 
     public StreamBytes(InputStream in) {
         super(in);
