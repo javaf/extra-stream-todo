@@ -6,9 +6,9 @@ import java.io.*;
 
 
 
-public class StreamBytes extends BufferedInputStream {
+public class InputStreamBrook extends BufferedInputStream {
 
-    public StreamBytes(InputStream in) {
+    public InputStreamBrook(InputStream in) {
         super(in);
     }
 }
