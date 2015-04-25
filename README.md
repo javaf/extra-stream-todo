@@ -1,3 +1,3 @@
-# java-jap
+# java-brook
 
-minimal stream library for java.
+minimal brook-canal (byte-char stream) library for java.
