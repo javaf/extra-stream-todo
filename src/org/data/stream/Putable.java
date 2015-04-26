@@ -4,13 +4,14 @@ package org.data.stream;
 
 
 /**
- * Items can be put to object implementing this interface.
+ * Items (bytes or characters) can be put to object
+ * implementing this interface.
  * @author wolfram77
  */
 public interface Putable {
     
     /**
-     * Put an item (byte or char).
+     * Put an item.
      * @param i item to put
      * @return this
      */
