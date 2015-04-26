@@ -22,6 +22,7 @@ public interface Getable {
      * @param off get offset in array
      * @param len number of items to get
      * @return number of items got
+     * @throws java.io.IOException on i/o error
      */
     int get(Object dst, int off, int len);
 }
