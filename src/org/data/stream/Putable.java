@@ -1,6 +1,9 @@
 // @wolfram77
 package org.data.stream;
 
+// required modules
+import java.io.*;
+
 
 
 /**
@@ -14,8 +17,9 @@ public interface Putable {
      * Put an item.
      * @param i item to put
      * @return this
+     * @throws IOException on i/o error
      */
-    CharPutable put(int i);
+    CharPutable put(int i) throws IOException;
     
     
     /**
@@ -24,6 +28,7 @@ public interface Putable {
      * @param off offset from where to put
      * @param len number of items to put
      * @return this
+     * @throws IOException on i/o error
      */
-    CharPutable put(Object src, int off, int len);
+    CharPutable put(Object src, int off, int len) throws IOException;
 }
