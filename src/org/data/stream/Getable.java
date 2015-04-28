@@ -22,6 +22,15 @@ public interface Getable {
     
     
     /**
+     * Get to item array.
+     * @param dst destination item array
+     * @return number of items got
+     * @throws IOException on i/o error
+     */
+    int get(Object dst) throws IOException;
+    
+    
+    /**
      * Get to part of item array.
      * @param dst destination item array
      * @param off get offset in array

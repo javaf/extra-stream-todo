@@ -19,7 +19,16 @@ public interface Putable {
      * @return this
      * @throws IOException on i/o error
      */
-    CharPutable put(int i) throws IOException;
+    Putable put(int i) throws IOException;
+    
+    
+    /**
+     * Put an item.
+     * @param src item to put
+     * @return this
+     * @throws IOException on i/o error
+     */
+    Putable put(Object src) throws IOException;
     
     
     /**
@@ -30,5 +39,5 @@ public interface Putable {
      * @return this
      * @throws IOException on i/o error
      */
-    CharPutable put(Object src, int off, int len) throws IOException;
+    Putable put(Object src, int off, int len) throws IOException;
 }
