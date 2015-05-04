@@ -8,7 +8,7 @@ package org.data.stream;
  * implementing this interface.
  * @author wolfram77
  */
-public interface Sizeable {
+public interface Addressable {
     
     /**
      * Get total items in object.
@@ -22,7 +22,7 @@ public interface Sizeable {
      * @param val new number of items
      * @return this
      */
-    Sizeable size(long val);
+    Addressable size(long val);
     
     
     /**
@@ -37,5 +37,5 @@ public interface Sizeable {
      * @param val new position
      * @return this
      */
-    Sizeable position(long val);
+    Addressable position(long val);
 }
